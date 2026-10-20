@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мир динозавров</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка: логотип и меню -->
+  <header class="header">
+    <h1 class="logo"><a href="index.html">Мир динозавров / эпоха гигантов</a></h1><nav class="menu">
+      <a class="active" href="index.html">Главная</a><a href="#predators">Хищники</a><a href="#herbivores">Травоядные</a><a href="#table">Таблица</a>
+    </nav>
+  </header>
+
+  <main class="page">
+
+    <!-- Верхняя галерея: две строки по два рисунка -->
+    <div class="gallery">
+      <div class="g-small"><img src="images/wide1.jpg" alt="Динозавры"></div><div class="g-big"><img src="images/wide2.jpg" alt="Динозавры"></div>
+    </div>
+    <div class="gallery">
+      <div class="g-big"><img src="images/wide3.jpg" alt="Динозавры"></div><div class="g-small"><img src="images/wide4.jpg" alt="Динозавры"></div>
+    </div>
+
+    <!-- Основная часть: левая колонка, центр, правая колонка -->
+    <div class="middle">
+
+      <aside class="side">
+        <div class="card">
+          <img src="images/trex.jpg" alt="Тираннозавр">
+          <h2>Тираннозавр</h2>
+          <p>Король хищников <a href="#">...</a></p>
+        </div>
+        <div class="card">
+          <img src="images/velociraptor.jpg" alt="Велоцираптор">
+          <h2>Велоцираптор</h2>
+          <p>Пернатый охотник <a href="#">...</a></p>
+        </div>
+        <div class="card">
+          <img src="images/spinosaurus.jpg" alt="Спинозавр">
+          <h2>Спинозавр</h2>
+          <p>Ловец рыбы <a href="#">...</a></p>
+        </div>
+        <div class="card">
+          <img src="images/gallimimus.jpg" alt="Галлимим">
+          <h2>Галлимим</h2>
+          <p>Быстрый бегун <a href="#">...</a></p>
+        </div>
+      </aside><div class="center">
+
+        <div class="top-cards">
+          <div class="card">
+            <img src="images/trex.jpg" alt="Хищные динозавры">
+            <h2>Хищники</h2>
+            <p>Тероподы с острыми зубами <a href="#predators">...</a></p>
+          </div><div class="card">
+            <img src="images/triceratops.jpg" alt="Травоядные динозавры">
+            <h2>Травоядные</h2>
+            <p>Гиганты и броненосцы <a href="#herbivores">...</a></p>
+          </div><div class="card">
+            <img src="images/gallimimus.jpg" alt="Всеядные динозавры">
+            <h2>Всеядные</h2>
+            <p>Ели всё подряд <a href="#">...</a></p>
+          </div><div class="card">
+            <img src="images/stegosaurus.jpg" alt="Таблица динозавров">
+            <h2>Таблица</h2>
+            <p>72 вида в цифрах <a href="#table">...</a></p>
+          </div>
+        </div>
+
+        <div class="boxes">
+          <section class="box box-left" id="predators">
+            <img class="box-img" src="images/predators.jpg" alt="Хищные динозавры">
+            <h2>Хищные динозавры</h2>
+            <p>
+              Почти все хищные динозавры относятся к тероподам — двуногим ящерам с острыми
+              загнутыми зубами и когтями. Они ходили на мощных задних лапах, а передние у
+              многих были заметно короче. Самые известные хищники — тираннозавр, спинозавр
+              и велоцираптор. От небольших тероподов позже произошли современные птицы.
+            </p>
+            <a class="button" href="#">Подробнее»</a>
+          </section><section class="box box-right" id="herbivores">
+            <h2>Травоядные динозавры</h2>
+            <p>
+              Травоядных динозавров было больше, чем хищников. Зауроподы с длинной шеей,
+              например диплодок, дотягивались до верхушек деревьев и были самыми большими
+              животными на суше. Другие защищались бронёй и оружием: рогами трицератопса,
+              шипами стегозавра и костяной булавой анкилозавра.
+            </p>
+            <img class="box-img" src="images/herbivores.jpg" alt="Травоядные динозавры">
+            <a class="button" href="#">Подробнее»</a>
+          </section>
+        </div>
+
+      </div><aside class="side">
+        <div class="card">
+          <img src="images/triceratops.jpg" alt="Трицератопс">
+          <h2>Трицератопс</h2>
+          <p>Три рога и воротник <a href="#">...</a></p>
+        </div>
+        <div class="card">
+          <img src="images/stegosaurus.jpg" alt="Стегозавр">
+          <h2>Стегозавр</h2>
+          <p>Пластины на спине <a href="#">...</a></p>
+        </div>
+        <div class="card">
+          <img src="images/diplodocus.jpg" alt="Диплодок">
+          <h2>Диплодок</h2>
+          <p>Шея длиной 7 м <a href="#">...</a></p>
+        </div>
+        <div class="card">
+          <img src="images/ankylosaurus.jpg" alt="Анкилозавр">
+          <h2>Анкилозавр</h2>
+          <p>Булава на хвосте <a href="#">...</a></p>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="footer" id="table">
+    <p>© 2026 · Группа Б9124-09.03.04 · Кислинский И.А.</p>
+  </footer>
+
+</body>
+</html>
